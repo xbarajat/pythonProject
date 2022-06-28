@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     computer_choice = random_choice(options)
     print("The computer chose:", computer_choice)
-    print("-------------------")
+    print("--------------------------")
 
     winning_choice = determine_winner(user_choice, computer_choice)
 
@@ -67,3 +67,4 @@ if __name__ == "__main__":
         print(TIE_Message)
 
     print("Thanks for playing. Please play again!")
+
